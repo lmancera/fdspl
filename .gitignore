@@ -22,3 +22,7 @@
 
 # Debug
 *.tlog
+/Debug
+
+# Database objects
+*.sdf
