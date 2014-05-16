@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7438DF55-8672-4066-80B2-2F0CAF429AE5}"
+	ProjectSection(SolutionItems) = preProject
+		dsp4ms.vsmdi = dsp4ms.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinearAlgebra", "LinearAlgebra\LinearAlgebra.vcxproj", "{CDE55BCF-4FF3-496E-9E47-CB5EF6574ABE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dsp4MSTests", "MatrixProductBlogTests\MatrixProductBlogTests.vcxproj", "{E547FDD6-F03B-45C5-B53A-44AEB65623CF}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = dsp4ms.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDE55BCF-4FF3-496E-9E47-CB5EF6574ABE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CDE55BCF-4FF3-496E-9E47-CB5EF6574ABE}.Debug|Win32.Build.0 = Debug|Win32
+		{CDE55BCF-4FF3-496E-9E47-CB5EF6574ABE}.Release|Win32.ActiveCfg = Release|Win32
+		{CDE55BCF-4FF3-496E-9E47-CB5EF6574ABE}.Release|Win32.Build.0 = Release|Win32
+		{E547FDD6-F03B-45C5-B53A-44AEB65623CF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E547FDD6-F03B-45C5-B53A-44AEB65623CF}.Debug|Win32.Build.0 = Debug|Win32
+		{E547FDD6-F03B-45C5-B53A-44AEB65623CF}.Release|Win32.ActiveCfg = Release|Win32
+		{E547FDD6-F03B-45C5-B53A-44AEB65623CF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
